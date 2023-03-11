@@ -18,6 +18,8 @@ public class Player {
         public void attack(Player player) {
             player.healthPoints -= this.damage;
             System.out.println(this.name + " нанес " + this.damage + " урона игроку " + player.name);
+            System.out.println("У "+player.name + " осталось " + player.healthPoints+" жизни!");
+//            Reader.printInfo(player);
         }
 
         public String getName() {
@@ -28,9 +30,6 @@ public class Player {
             return healthPoints;
         }
 
-//        public void setHealthPoints(double healthPoints) {
-//            this.healthPoints = healthPoints;
-//        }
 
     public boolean isDead() {
         if (this.healthPoints == 0) {
