@@ -21,7 +21,7 @@ public class Main {
 
         ArrayList<Player> players = new ArrayList<>();
         Random random = new Random();
-        int figters = 4;
+        int figters = 6;
         int firstPlayer;
         int secondPlayer;
         Scanner scanner = new Scanner(System.in);
@@ -54,11 +54,11 @@ public class Main {
 
             if (fight(players.get(firstPlayer), players.get(secondPlayer))) {
                 System.out.print(players.get(firstPlayer).getName());
-                players.get(firstPlayer).getHealthPoints();
+//                players.get(firstPlayer).getHealthPoint();
                 players.remove(secondPlayer);
             } else {
                 System.out.print(players.get(secondPlayer).getName());
-                players.get(secondPlayer).getHealthPoints();
+//                players.get(secondPlayer).getHealthPoint();
                 players.remove(firstPlayer);
             }
             System.out.println(" - Победил!");
