@@ -28,6 +28,7 @@ public class Notebook {
         return "Notebook{" +
                 "cost=" + cost +
                 ", memory=" + memory +
+                "display=" + display +
                 '}';
     }
 }
