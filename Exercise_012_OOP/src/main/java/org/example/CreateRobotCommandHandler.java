@@ -17,9 +17,4 @@ public class CreateRobotCommandHandler implements CommandHandler {
             System.out.println("Ошибка: " + e.getMessage());
         }
     }
-
-    @Override
-    public void handle(String[] arguments) {
-
-    }
 }

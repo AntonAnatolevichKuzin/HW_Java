@@ -22,9 +22,4 @@ public class ChangeDirectionCommandHandler implements CommandHandler {
             System.out.println("Робот с идентификаторо " + id + " не найден");
         }
     }
-
-    @Override
-    public void handle(String[] arguments) {
-
-    }
 }

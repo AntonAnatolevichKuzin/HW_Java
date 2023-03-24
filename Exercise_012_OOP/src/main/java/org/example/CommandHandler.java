@@ -6,5 +6,4 @@ public interface CommandHandler {
 
     void handleCommand(RobotMap map, String[] args);
 
-    void handle(String[] arguments);
 }

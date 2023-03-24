@@ -19,9 +19,4 @@ public class MoveRobotCommandHandler implements CommandHandler {
             System.out.println("Ошибка: " + e.getMessage());
         }
     }
-
-    @Override
-    public void handle(String[] arguments) {
-
-    }
 }
