@@ -1,0 +1,10 @@
+package org.example;
+
+public interface CommandHandler {
+
+    String commandName();
+
+    void handleCommand(RobotMap map, String[] args);
+
+    void handle(String[] arguments);
+}
